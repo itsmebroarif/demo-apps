@@ -1,0 +1,17 @@
+{
+  "name": "native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "set-env": " mkdir css js assets page && cd css &&  touch style.css && cd .. && cd js && touch script.js && cd .. && touch index.html && cd assets && mkdir img picture && cd ..",
+    "install-config": "npm i bootstrap sweetalert2 axios jquery popper.js mysql express"
+  },
+  "keywords": [],
+  "author": "Arif Alexander",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sweetalert2": "^11.6.8"
+  }
+}
